@@ -35,7 +35,7 @@ from langchain_openai import OpenAI
 import os
 
 # Set the OpenAI API key as an environment variable
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your api key"
 
 langchain.debug=True
 langchain.verbose=True
@@ -56,6 +56,7 @@ def csv_to_pdf(csv_files, save_directory):
     combined_df = pd.concat(dataframes, ignore_index=True)
 
     # Define a list of agent configurations
+    # questions can be made on your choice and csv file
     agent_configs = [
         {"model": "gpt-3.5-turbo-0613", "question": "Make 10 questions from the CSV file"},
         {"model": "gpt-3.5-turbo-0613", "question": "How many males and females are there in the dataset?"},
