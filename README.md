@@ -1,0 +1,6 @@
+- create a virtual env
+- create a folder(page)
+- save all python file (pdf, audio, pandas) to page
+- run main file (multipage)
+- To run the project in terminal: streamlit run multipage.py
+- make sure all the libraries, dependencies are installed from requirements.txt
