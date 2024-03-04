@@ -29,7 +29,7 @@ from translate import Translator
 from pydub import AudioSegment
 from pydub.playback import play
 
-api_key = "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"
+api_key = "you api key"
 openai.api_key = api_key
 
 langchain.debug=True
