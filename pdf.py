@@ -26,7 +26,7 @@ from io import BytesIO
 from gtts import gTTS
 
 
-api_key = "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"
+api_key = "your api key"
 openai.api_key = api_key
 
 langchain.debug=True
